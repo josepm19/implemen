@@ -1,0 +1,190 @@
+@import "compass/css3";
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+.todo{
+    padding: 0;
+}
+.todo .cabecera{
+    width: 100%;
+    position: fixed;
+    word-wrap: break-word;
+    height: 70px;
+    background: #fff;
+    box-shadow: 0px 10px 5px -6px rgba(0,0,0,0.09);
+    margin: 0;
+}
+.todo .cabecera .logo{
+    width: 15%;
+    display: flex;
+    height: 70px;
+    float: left;
+}
+.todo .cabecera .logo img{
+    width: 170px;
+    height: 40px;
+    margin: auto ;
+    display: block;
+}
+.todo .cabecera .foto-perfil1{
+    float: right;
+    width: 120px;
+    display: flex;
+    height: 70px;
+}
+.todo .cabecera .foto-perfil1 img{
+    width: 50px;
+    margin:  auto;
+    border-radius: 100%;
+}
+.todo .cabecera .foto-perfil1 .logout{
+    width: 120px;
+    margin-left: 0;
+}
+
+.todo .bloque-cuerpo{
+        display: block;
+        background: rgb(194, 196, 212);
+}
+.todo .bloque-cuerpo .bloque-menu{
+    position: fixed;
+    word-wrap: break-word;
+    width: 15%;
+    float: left;
+    height: 100%;
+    background: #2C304D;
+    margin-top:  70px;
+    box-shadow: 13px 0px 5px -6px rgba(0,0,0,0.12);
+
+
+}
+.todo .bloque-cuerpo .bloque-menu .perfil {
+    margin-top: 15px;
+    font-size: 18px;
+    color:#fff;
+}
+.todo .bloque-cuerpo .bloque-menu .perfil .foto-perfil img{
+      width: 50px;
+      margin: auto auto;
+      border-radius: 100%;
+      text-align: center;
+      display: block;
+}
+.todo .bloque-cuerpo .bloque-menu .perfil .nombre-perfil p{
+    text-align: center;
+}
+.todo .bloque-cuerpo .bloque-menu .perfil .nombre-perfil p a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+}
+.todo .bloque-cuerpo .bloque-menu .perfil .tools{
+    margin: 0px;
+    background: rgb(30, 34, 61);
+    height: 100%;
+    display: flex;
+    margin-bottom: 0;
+
+}
+.todo .bloque-cuerpo .bloque-menu .perfil .tools ul{
+    padding-inline-start: 0px;
+    width: 100%;
+}
+.todo .bloque-cuerpo .bloque-menu .perfil .tools ul li{
+    list-style-type: none;
+    height: 60px;
+    margin: 0;
+    
+}
+.todo .bloque-cuerpo .bloque-menu .perfil .tools ul li:hover{
+    background: rgb(43, 51, 109);
+}
+.todo .bloque-cuerpo .bloque-menu .perfil .tools ul li a .i .fa, .fas, .fab{
+    text-align: left;
+    margin: 18px;
+}
+.todo .bloque-cuerpo .bloque-menu .perfil .tools ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+.todo .bloque-cuerpo .content{
+    width: 82%;
+    height: auto;
+    float: right;
+    background: #fff;
+    margin: 10px auto;
+    border: 2px solid black;
+    margin-right:10px;
+    margin-top:90px;  
+}
+.todo .bloque-cuerpo .content .nombre-tabla{
+    font-weight: 20px;
+    text-align: left;
+    font-size: 20px;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    box-shadow: 0px 10px 5px -6px rgba(0,0,0,0.09);
+}
+.todo .bloque-cuerpo .content .nombre-tabla h2{
+    float: left;
+    margin:10px 0 0 10px;
+}
+.todo .bloque-cuerpo .content .nombre-tabla #añadir_producto{
+    float: right;
+}
+.todo .bloque-cuerpo .content table{
+    width: 95%; 
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+.todo .bloque-cuerpo .content table tr{
+    border: 2px solid rgb(155, 155, 155);
+}
+.todo .bloque-cuerpo .content table th{
+    border: 2px solid rgb(155, 155, 155);
+    text-align: center;
+}
+.todo .bloque-cuerpo .content table td{
+    border: 2px solid rgb(155, 155, 155);
+}
+.todo .bloque-cuerpo .content table td .edit {
+    display: inline-block;
+}
+.todo .bloque-cuerpo .content table td .edit button {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+.todo .bloque-cuerpo .content table td .edit button:hover {
+    background: #2C304D;
+    color: #fff;
+}
+
+
+.content .cant_product{
+    border: 2px solid black;
+    width: 32%;
+    display: inline-block;
+    margin: auto;
+    float: left;
+
+}
+.content .cant_pedidos{
+    border: 2px solid black;
+    width: 32%;
+    display: inline-block;
+    margin: 10px;
+
+}
+.content .cant_clientes{
+    border: 2px solid black;
+    width: 32%;
+    display: inline-block;
+    margin: auto;
+    float: right;
+
+}
+
+
